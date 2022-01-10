@@ -47,7 +47,16 @@ nums[3] = 4;
 int[] nums = {1,2,3,4};
 System.out.println(nums.length); //4
 
-int[] numsClone = new int[4];
+int[] numsClone = nums.clone();
+for(int i = 0; i < numsClone.length; i++){
+    System.out.print(numsClone[i] + " ");
+}  // 1 2 3 4
 ```
+
+배열에서 사용가능한 대표적인 Method는 length, clone이 있다.
+
+**length** : 배열의 길이를 반환한다.  
+**clone** : 배열을 복사해서 반환한다.  
+
 
 
